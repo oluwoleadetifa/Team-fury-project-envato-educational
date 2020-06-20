@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
+
+/*----PARTNERS PAGE STYLING----*/
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.site{
+    background-image: url(../images/pix1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.site-heading{
+    margin-top: 60%;
+    margin-bottom: 50%;
+    padding-left: 50px;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/*----SECTION 1----*/
+
+.heading1 .par1{
+    font-family: 'montserrat';
+}
+
+.sec-1 .par1{
+    margin-bottom: 5%;
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+
+.heading1 {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+/*----SECTION 3----*/
+.sec-3 .heading1{
+    font-family: 'montserrat';
+    font-weight: bold;
+    margin-top: 12%;
+    font-size: 36px;
+}
+
+.sec-3 .par1{
+    margin-bottom: 5%;
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+
+/*--------STYLING FOR SECTION 2 & 4 IMAGES(PARTNERS PAGE)-------*/
+.sec-2 img, .sec-4 img{
+    width: 300px; 
+    height: 190px;
+    padding: 50px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+
+.sec-4{
+    margin-bottom: 8%;
+}
+
+
+@media screen and (max-width: 768px){   
+    .sec-2 .col-md-4 img {
+        width: 14rem;  
+    }
+
+    .sec-4 .col-md-4 img {
+        width: 14rem;
+
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    
+    
+    .sec-2 .col-md-4 img {
+        padding: 5%; 
+        margin-left: 15%; 
+    }
+
+    .sec-4 .col-md-4 img {
+        padding: 5%; 
+        margin-left: 15%;
+    }
+}
+    
+       
