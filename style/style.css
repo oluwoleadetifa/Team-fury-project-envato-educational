@@ -1,0 +1,23 @@
+body, head {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: url("../images/bg.png") no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+@media only screen and (max-width:690px) {
+    .c-us {
+        text-align: center;
+    }
+}
+
+.text-orange {
+    color: #E77728;
+}
+
+.bg-input {
+    background-color: #F4EFEF;
+}
