@@ -17,3 +17,7 @@ body, head {
 .text-orange {
     color: #E77728;
 }
+
+.bg-input {
+    background-color: #F4EFEF;
+}
