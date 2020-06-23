@@ -1,0 +1,222 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  width: 100vw;
+  height: 70vh;
+  
+  
+}
+.header-bg {
+  background-image: url('../images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 60vh;
+  width: 100%;
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  
+}
+
+.header-content{
+
+width: 65%;
+height: auto;
+position: absolute;
+top: 65%;
+right: 50%;
+transform: translate(50%, -50%);
+
+
+
+
+}
+.header-texts{
+  color: white;
+  font-size: 1.5rem;
+  font-family: cursive;
+  margin-right: 1rem;
+}
+.header-input{
+  width: 60%;
+  height: 3.2rem;
+  background-color: white;
+}
+.header-btn{
+  display: inline-block;
+  width: 10rem;
+  border: none;
+  background-color: orange;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -0.05rem;
+
+  
+}
+.header-search-btn{
+  color: white;
+  text-decoration: none;
+}
+.input-container{
+  display: flex;
+  flex-direction: row;
+}
+
+select{
+  width: auto;
+  height: 3rem;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  font-family: cursive;
+  box-shadow: 0 0.05rem 0.5rem black;
+  padding-right: 1rem;
+  
+}
+.main-link{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: cursive;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 1rem;
+  display: inline;
+
+  
+}
+.dropdowns{
+  margin-right: 25%;
+  margin-bottom: 3rem;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-link:hover{
+  color: #000;
+    
+}
+.in-session{
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: cursive;
+  
+  margin-right: 60%;
+  margin-bottom:-2rem;
+
+}
+.course-block{
+  height: 30vh;
+  width: 70vw;
+  background-color: white;
+  border: thin solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.05rem 0.5rem black;
+  border-radius: 0.7rem;
+  position: relative;
+}
+.course-detail{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  
+
+}
+.course-title{
+  font-size: 1.15rem;
+  color: rgba(0, 0, 0);
+  font-family: sans-serif;
+  width: 70%;
+
+
+}
+.white-space{
+  border-right: thin solid black;
+  width: 25%;
+  height: 100%;
+  background-color: white
+}
+.progress-container{
+  height: 2rem;
+  width: 60%;
+  position: absolute;
+  bottom: 13%;
+  left: 30%;
+  opacity: 0.5;
+  
+}
+.progress-bar {
+  height: 0.5rem;
+  width: 70%;
+  border-radius: 1rem;
+  border: thin solid white;
+  margin-top: -1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+.green{
+  height: 100%;
+  width: 40%;
+  background-color: green;
+}
+.play-box{
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play-course{
+  height: auto;
+  padding: 2% 0.5rem;
+  border: thin solid orange;
+  border-radius: 2rem;
+  color: orange;
+  cursor: pointer;
+  
+  
+}
+.fa-play{
+  color: white;
+  border: thin solid orange;
+  padding: 0.2rem 0.2rem;
+  border-radius: 50%;
+  background-color: orange;
+  font-size: 0.7rem;
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.courses-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+.main-links{
+  margin-right: 45%;
+  margin-bottom: 2rem;
+}
+.course-block{
+  margin-top: 3rem;
+}
