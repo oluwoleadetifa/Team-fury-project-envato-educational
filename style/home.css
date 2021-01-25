@@ -1,0 +1,116 @@
+.nav-color {
+    background: #E5E5E5;
+}
+
+.nav-image {
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.nav-image::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.checked {
+    color: orange;
+}
+
+nav,
+.heading-main {
+    position: absolute;
+    z-index: 3;
+}
+
+.margin-top-1 {
+    margin-top: 200px;
+}
+
+.margin-top-2 {
+    margin-top: 50px;
+}
+
+.margin-top-btm-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.padding-top-btm {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.active {
+    background-color: #fff !important;
+    color: salmon;
+}
+
+.btn-orange {
+    background: #E77728;
+}
+
+.border-radius {
+    border-radius: 50px;
+    border-color: azure;
+    display: inline;
+}
+
+.border-bottom {
+    background-color: grey;
+    width: 80%;
+    height: 2px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.course-box {
+    max-width: 200px;
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.subscribe-color {
+    background-color: #F4EFEF;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials {
+    color: #EBE2E2;
+}
+
+.box {
+    min-width: 290px;
+    max-width: 700px;
+}
+
+footer {
+    z-index: 3;
+}
+
+@media(max-width:768px) {
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .nav-image {
+        min-height: 100vh;
+    }
+}
